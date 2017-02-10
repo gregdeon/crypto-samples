@@ -1,6 +1,5 @@
 import numpy as np
-from chipwhisperer.analyzer.attacks.models.aes.funcs import subbytes, mixcolumns, shiftrows
-from chipwhisperer.analyzer.attacks.models.aes.key_schedule import keyScheduleRounds
+from aes_helper import *
 
 def cipher(pt, k):
     Nr = 10
